@@ -1,1 +1,1 @@
-# MylandingPage
+# MylandingPage project
