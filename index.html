@@ -1,275 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Marie Lenac</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <title>Landing Page</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/6a8e4b5210.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <link rel="stylesheet" href="style.css" />
-
-    <script type="text/javascript" src="index.js"></script>
-  </head>
-
-  <body>
-    <nav class="navbar navbar-expand-lg">
-      <span class="navbar-brand mb-1 h1">Marie Lenac</span>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="nav navbar-nav navbar-right">
-          <!-- <button class="nav-item">
-            <a class="nav-link btn btn-link" id="about-scroll">About</a>
-          </button>
-          <button class="nav-item">
-            <a class="nav-link btn btn-link" id="contact-scroll">Contact</a>
-          </button>
-          <button class="nav-item" id="portfolio-scroll">
-            <a class="nav-link btn btn-link">Portfolio</a>
-          </button> -->
-        </ul>
-      </div>
-    </nav>
-
+</head>
+<body>
     <div class="container">
-      <div class="main-area">
-        <div class="header">
-          <div class="col-md-12 section-head">
-            Get to Know Me
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 col-sm-12">
+            <nav class="py-6 px-6 flex justify-between items-center border-b border-gray-200">
+            <a href="/" class="text-xl font-semibold">OCES</a>
+
+            <div class="space-x-6">
+                <a href="#" class="text-lg font-semibold hover:text-gray-500">New item</a>
+                <a href="#" class="text-lg font-semibold hover:text-gray-500">Browse</a>
+                <a href="contact.html" class="px-6 py-3 text-lg font-semibold bg-teal-500 text-white rounded-xl hover:bg-teal-700">Contact</a>
+                <a href="about.html" class="px-6 py-3 text-lg font-semibold bg-gray-500 text-white rounded-xl hover:bg-gray-700">About</a>
+            </div>
+        </nav>
+        <div class="container px-6 py-6">
+        <div class="content mt-6 px-6 py-12 bg-gray-100 rounded-xl">
+            <h1>Welcome to our Landing Page</h1>
             <p>
-              <img src="Assets/5D3_3533.jpg" class="float-left" /> I am a
-              tenacious and dynamic individual looking for new opportunities and
-              career advancement. I'm very process focused and I have been
-              applying that to various roles in the sales & sales ops space. I
-              have a knack for creative problem solving and I'm committed to
-              sustainability and long term progress. I am looking for a company
-              that has values dedicated to improving the lives of clients and
-              employees alike. I'm an energetic and comedic personality but I
-              believe in discipline, education & growth. Helping others is
-              something that gives me fulfillment in life and at work, I want to
-              foster a sense of teamwork and collaboration wherever I go. When I
-              am not working I love to be outdoors. Nature inspires me
-              constantly and I love spending time in the mountains. I am an Elctrical Engineer. Life takes
-              you anywhere you let it, so enjoy the ride!
+                This project was inspired by our shared passion for technology and our desire to create a meaningful and impactful application. 
+                As individuals who have always been fascinated by problem-solving and innovation, we wanted to develop a project that would not only showcase our skills but also provide value to users. 
+                The timeline for this project spanned several weeks, with countless hours spent brainstorming, designing, and coding. 
+                We took great care in ensuring that every feature and functionality was meticulously implemented and thoroughly tested. 
+                This project is a Portfolio Project for Holberton School, a prestigious institution that has provided us with the knowledge and tools to excel in the field of software engineering.
             </p>
-          </div>
+            <a href="#" class="cta-button">Get Started</a>
+            <div class="navigation">
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            </div>
         </div>
-      </div>
     </div>
-
-    <div class="container portfolio-div">
-      <div class="main-area">
-        <div class="header">
-          <div class="col-md-12 section-head">
-            Portfolio
-          </div>
-        </div>
-        <div class="row">
-          <div class="adventure col-lg-6 col-sm-12">
-            <div class="title">
-              <i class="fas fa-plane fa-3x"></i>
-              <div class="portlink">
-                <a
-                  href="https://nimona123.github.io/MylandingPage/"
-                  target="_blank"
-                  rel="“noopener"
-                  noreferrer”
-                >
-                  <h3>Find Your Adventure</h3>
-                </a>
-              </div>
-
-              <p>
-                My first group project that I completed in bootcamp. Entirely
-                front end based using API calls, jQuery and js to dynamically
-                create HTML and get/post information.
-              </p>
-            </div>
-          </div>
-          <div class="recipebox col-lg-6 col-sm-12">
-            <div class="title">
-              <i class="fas fa-box-open fa-3x"></i>
-              <div class="portlink">
-                <a
-                  href="https://floating-garden-43983.herokuapp.com/"
-                  target="_blank"
-                  rel="“noopener"
-                  noreferrer”
-                >
-                  <h3>Recipe Box</h3>
-                </a>
-              </div>
-
-              <p>
-                This is the second group project I completed in Bootcamp. It was
-                a real challenge for my group but we persevered and were able to
-                deploy a working application. Check back on this project for
-                updates!
-              </p>
-            </div>
-          </div>
-          <div class="planner col-lg-6 col-sm-12">
-            <div class="title">
-              <i class="fas fa-calendar-week fa-3x"></i>
-              <div class="portlink">
-                <a
-                  href="https://Nimona123.github.io/MylandingPage/"
-                  target="_blank"
-                  rel="“noopener"
-                  noreferrer”
-                >
-                  <h3>Day Planner</h3>
-                </a>
-              </div>
-
-              <p>
-                This is an individual project I created from scratch as a
-                bootcamp assignment. I used moment to control the date & styling
-                of the day planner and local storage to hold event info for the
-                user even after a page reload. I completed this assignment on
-                week 5 of 24 in my full stack bootcamp.
-              </p>
-            </div>
-          </div>
-          <div class="emptracker col-lg-6 col-sm-12">
-            <div class="title">
-              <i class="fas fa-users fa-3x"></i>
-              <div class="portlink">
-                <a
-                  href="https://github.com/Nimona123/EmployeeTracker"
-                  target="_blank"
-                  rel="“noopener"
-                  noreferrer”
-                >
-                  <h3>Employee Tracker</h3>
-                </a>
-              </div>
-
-              <p>
-                This is a command line application using node-express modules to
-                create a database of employees for internal use. This
-                application can be used by engineers, recruiters and managers to
-                organize employees within their departments and view information
-                about managers, employees or some combination of both. This is a
-                public repo and you can begin by following the instructions in
-                the ReadMe.
-              </p>
-            </div>
-          </div>
-
-          <!-- <div class="emptracker col-lg-4 col-sm-12">
-            <div class="title">
-              <i class="fas fa-users fa-3x"></i>
-              <div class="portlink">
-                <a
-                  href="https://github.com/Nimona123/EmployeeTracker"
-                  target="_blank"
-                  rel="“noopener"
-                  noreferrer”
-                >
-                  <h3>Employee Tracker</h3>
-                </a>
-              </div>
-
-              <p>
-                This is a command line application using node-express modules to
-                create a database of employees for internal use. This
-                application can be used by engineers, recruiters and managers to
-                organize employees within their departments and view information
-                about managers, employees or some combination of both. This is a
-                public repo and you can begin by following the instructions in
-                the ReadMe.
-              </p>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="main-area">
-        <div class="header section-head col-lg-12">
-          Contact Me
-        </div>
-
-        <div class="row contact-icons">
-          <div class="linkedin col-lg-4 col-sm12 text-left">
-            <!-- <i class="fab fa-linkedin fa-3x"></i> -->
-            <a href="www.linkedin.com/in/Nimona123" class="contact-a">
-              Add me on LinkedIn</a
-            >
-          </div>
-          <div class="email col-lg-4 col-sm12 text-left">
-            <!-- <i class="fas fa-envelope-open-text fa-3x"></i> -->
-
-            <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=argano4444@gmail.com"
-              target="_blank"
-              class="contact-a"
-              >Email Me</a
-            >
-          </div>
-          <div class="github col-lg-4 col-sm12 text-left">
-            <!-- <i class="fab fa-github-square fa-3x"></i> -->
-            <a href="www.github.com/Nimona123" class="contact-a">
-              Follow me on Github</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <footer class="page-footer font-small elegant-color">
-        <div class="footer-copyright text-left py-3">
-          ©Copyright:
-          <a href="github.com/Nimona123"> Takile Akuma</a>
-        </div>
-      </footer>
-    </div>
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
 </html>
